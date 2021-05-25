@@ -25,7 +25,33 @@
   </head>
   <body>
 
-    <h1 class="display-1">Hello</h1>
+    <!-- header -->
+
+    <header id="header" class="fixed-top">
+      <i class="fas fa-bars"></i>
+      <a href="#" class="logo"><i class="fas fa-shopping-bag"></i><h1>shopping</h1></a>
+
+      <div class="left">
+        <div class="search-container">
+          <label for="search" class="fas fa-search"></label>
+          <input type="search" placeholder="Search" id="search">
+        </div>
+        <div class="fas fa-shopping-cart"></div>
+      </div>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home" >home</a></li>
+          <li><a href="#product" >product</a></li>
+          <li><a href="#review" >review</a></li>
+          <li><a href="#offer" >offer</a></li>
+          <li><a href="#newsletter" >newsletter</a></li>
+
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home"></section>
     <!-- script -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
@@ -43,5 +69,10 @@
       integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
       crossorigin="anonymous"
     ></script>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
